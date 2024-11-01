@@ -24,33 +24,30 @@
 
 Create a frontend application (SPA or SSR) that consumes the API provided by this project. You are to use React with Typescript and Tailwind CSS, use any other libraries you see fit. The frontend should have a role-based UI/UX, meaning that the user should only see the features that are allowed by their role. The roles are `admin`, `agent`, `customer`, and `guest`.
 
-**The frontend should have the following base features:**
-- Login
-- Register
-- List all agents
-- List all customers
-- List all orders
-- Create a new order
-- Update an existing order
-- Delete an existing order
-- List the total amount of orders grouped by customer
-- List the total amount of orders grouped by agent
-- List the total amount of orders grouped by country
-- Logout
-- Pagination
-- Role-based UI/UX
-- Unit tests
-- Integration tests
-- Dockerize the frontend
+**Must Have Features**
+These features are based on the already provided endpoints and are all required:
+- Login, Logout, and Registration
+- Role-Based UI/UX – Ensure users see only the features allowed by their roles.
+- List Data with Pagination:
+   - List agents, customers, and orders
+-  CRUD Operations for Orders:
+   - Create, update, and delete an order
+- Basic Summarization – Show total orders grouped by:
+  - Customer, agent, and country
+- Unit Tests – For key components and functions
 
-**Additional features to be implemented at your discretion:**
-- Location based search feature with a map component for displaying the results
-- Frontend cache with cache invalidation
-- Text based search feature
-- Filter feature
-- Sort feature
-- CI/CD pipeline
-- Any other feature you see fit
+**Should Have Features**
+These features are to be considered required for Senior Level candidates, and optional for Mid Level candidates:
+- Dockerize the Frontend – Containerize the application to ensure it runs consistently across environments.
+- Text-Based Search Feature
+- Sort Feature – Allow sorting of orders, customers, or agents based on relevant criteria.
+
+**Optional Features**
+These features allow you to demonstrate deeper frontend skills, implement no more than 2:
+- Integration Tests – Beyond unit tests, add basic integration tests for major components.
+- Frontend Cache with Cache Invalidation – Implement simple client-side caching for efficiency.
+- Location-Based Search with Map Component – Include a map to display search results.
+- Advanced Feature of Your Choice – Add any other feature you see fit.
 
 ## Evaluation Criteria
 
