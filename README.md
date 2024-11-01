@@ -129,7 +129,7 @@ And if we want to use docker compose we have to add:
 Clone the project
 
 ```bash
-git clone https://github.com/CaioF/frontend-typescript-challenge
+git clone https://github.com/Resquared/frontend-typescript-challenge
 ```
 
 Go to the project directory
